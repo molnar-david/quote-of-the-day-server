@@ -6,7 +6,7 @@ Built with the class from [tcp-listener](https://github.com/molnar-david/tcp-lis
 
 ## Note:
 
-If using PuTTY, make sure you enable the 'Implicit CR in every LF' option under the 'Terminal' menu.
+If using PuTTY, make sure you enable the 'Implicit CR in every LF' option under the 'Terminal' menu, otherwise your received quote won't be formatted properly.
 
 *Made with the help of the [Networking in C++](https://www.youtube.com/playlist?list=PLZo2FfoMkJeEogzRXEJeTb3xpA2RAzwCZ) YouTube series by [Sloan Kelly](https://www.youtube.com/c/sloankelly)*  
 *The tutorial series didn't include a lot of error checking, so most of it I had to look up and write myself*
