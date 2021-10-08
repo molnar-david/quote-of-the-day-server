@@ -4,7 +4,13 @@ A very basic TCP server that accepts a single client, that by default returns a 
 
 Built with the class from [tcp-listener](https://github.com/molnar-david/tcp-listener).
 
-## Note:
+## How to use:
+0. If you don't have PuTTY or similar software, you can download PuTTY from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/), or use my TCP client [here](https://github.com/molnar-david/tcp-client)
+1. Compile and run using Visual Studio (I used Visual Studio Community 2019)
+2. In PuTTY, set Connection type to Raw, then connect to the server's IP address - or 127.0.0.1 (localhost) if hosted on the same network -, through the specified port (54000 by default)
+3. Send "QUOTE" to the server to get your random quote from "wisdom.txt
+
+### Note:
 
 If using PuTTY, make sure you enable the 'Implicit CR in every LF' option under the 'Terminal' menu, otherwise your received quote won't be formatted properly.
 
