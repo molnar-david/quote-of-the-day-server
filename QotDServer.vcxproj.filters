@@ -30,12 +30,18 @@
     <ClCompile Include="src\QotD.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
+    <ClCompile Include="src\QotDServer.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\TcpListener.h">
       <Filter>Header Files\include</Filter>
     </ClInclude>
     <ClInclude Include="include\QotD.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QotDServer.h">
       <Filter>Header Files\include</Filter>
     </ClInclude>
   </ItemGroup>
