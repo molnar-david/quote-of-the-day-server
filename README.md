@@ -1,6 +1,6 @@
 # quote-of-the-day-server
 
-A very basic TCP server that accepts a single client, that by default returns a random quote parsed in from "wisdom.txt" to the client when the string "QUOTE" is sent to the server, implemented using Windows Sockets 2.
+A very basic TCP server that accepts a single client, that by default returns a random quote parsed in from "wisdom.txt" to the client when the string "QUOTE" is sent to the server, implemented using [Windows Sockets 2](https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2).
 
 Built with the class from [tcp-listener](https://github.com/molnar-david/tcp-listener).
 
