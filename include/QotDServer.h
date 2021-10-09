@@ -1,3 +1,5 @@
+#pragma once
+
 #include "QotD.h"
 #include "TcpListener.h"
 
